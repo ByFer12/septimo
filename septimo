@@ -1,0 +1,25 @@
+Inicio
+	var numero
+	var aux1,aux2,aux3,aux4, aux5,aux6
+	var cantidad=0
+	mientras(cantidad<=15)
+	numero=aleatorio(0,36)
+	si(numero%2==0)
+		aux1++
+	sino si(numero==0)
+		aux2++
+	sino
+		aux3++
+	finsi
+		mostrar(El numero es "numero")
+	finMientras
+
+	aux4=aux1/15*100
+	aux5=aux2/15*100
+	aux6=aux3/15*100
+	mostrar(el porcentaje de pares son "aux4")
+	mostrar(el porcentaje de impares son "aux5")
+	mostrar(el porcentaje de ceros son "aux6")
+Fin
+	
+	
